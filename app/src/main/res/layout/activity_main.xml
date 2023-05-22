@@ -6,6 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:padding="10dp"
+    android:gravity="center"
     tools:context=".MainActivity">
     <ImageView
         android:id="@+id/img"
@@ -28,6 +29,41 @@
         android:text="Feed  "
         android:layout_below="@id/img"
         android:layout_toRightOf="@id/blink"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="5dp"/>
+    <Button
+        android:id="@+id/move"
+        android:layout_width="100dp"
+        android:layout_height="60dp"
+        android:text="Move  "
+        android:layout_below="@id/img"
+        android:layout_toRightOf="@id/feed"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="5dp"/>
+    <Button
+        android:id="@+id/rotate"
+        android:layout_width="100dp"
+        android:layout_height="60dp"
+        android:text="Rotete "
+        android:layout_below="@id/blink"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="5dp"/>
+    <Button
+        android:id="@+id/slide"
+        android:layout_width="100dp"
+        android:layout_height="60dp"
+        android:text="Slide "
+        android:layout_below="@id/blink"
+        android:layout_toRightOf="@id/rotate"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="5dp"/>
+    <Button
+        android:id="@+id/zoom"
+        android:layout_width="100dp"
+        android:layout_height="60dp"
+        android:text="Zoom "
+        android:layout_below="@id/blink"
+        android:layout_toRightOf="@id/slide"
         android:layout_marginTop="10dp"
         android:layout_marginLeft="5dp"/>
 </RelativeLayout>
